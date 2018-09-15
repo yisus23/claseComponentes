@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         char primeraLetraP = edtApellidoPaterno.getText().charAt(0);
 
 
-       char [] Vocales = {'A' ,'E' ,'I' ,'O' ,'U' ,'a' ,'e' ,'i' ,'o' ,'u', 'á' ,'é' ,'í' ,'ó' ,'ú'};
+       char [] vocales = {'A' ,'E' ,'I' ,'O' ,'U' ,'a' ,'e' ,'i' ,'o' ,'u', 'á' ,'é' ,'í' ,'ó' ,'ú'};
         //tomar la ptimera letra el apelido materno
 
         //tomar la primera letra del nombre
