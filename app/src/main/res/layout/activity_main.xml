@@ -14,7 +14,7 @@
         android:text="Nombre:"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/edtNombre"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <EditText
         android:id="@+id/edtNombre"
@@ -23,18 +23,18 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="3dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="20dp"
         android:text="Apellido paterno"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/edtApellidoPaterno"
-        tools:layout_editor_absoluteY="325dp" />
+        tools:layout_editor_absoluteY="102dp" />
 
     <EditText
         android:id="@+id/edtApellidoPaterno"
@@ -43,8 +43,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="304dp" />
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="81dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -54,7 +54,7 @@
         android:text="Apellido Materno"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/edtApellidoMaterno"
-        tools:layout_editor_absoluteY="415dp" />
+        tools:layout_editor_absoluteY="183dp" />
 
     <EditText
         android:id="@+id/edtApellidoMaterno"
@@ -63,18 +63,18 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="394dp" />
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="162dp" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="20dp"
         android:text="Fecha de nacimiento"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/edtFecha"
-        tools:layout_editor_absoluteY="494dp" />
+        tools:layout_editor_absoluteY="262dp" />
 
     <EditText
         android:id="@+id/edtFecha"
@@ -83,8 +83,8 @@
         android:ems="10"
         android:inputType="date"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="486dp" />
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="260dp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -94,7 +94,7 @@
         android:text="Homonimia"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/edtAleatorio"
-        tools:layout_editor_absoluteY="572dp" />
+        tools:layout_editor_absoluteY="346dp" />
 
     <EditText
         android:id="@+id/edtAleatorio"
@@ -104,18 +104,18 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="310dp"
-        tools:layout_editor_absoluteY="563dp" />
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="329dp" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
+        android:layout_marginEnd="100dp"
         android:text="RFC"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/edtRFC"
-        tools:layout_editor_absoluteY="658dp" />
+        tools:layout_editor_absoluteY="437dp" />
 
     <EditText
         android:id="@+id/edtRFC"
@@ -125,19 +125,19 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="327dp"
-        tools:layout_editor_absoluteY="648dp" />
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="424dp" />
 
     <Button
         android:id="@+id/btnGenerar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="GenerarRFC"
+        android:onClick="generarRFC"
         android:text="Generar"
         android:textAllCaps="false"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="777dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="515dp" />
 
     <Button
         android:id="@+id/btnClear"
@@ -146,7 +146,7 @@
         android:text="Limpiar"
         android:textAllCaps="false"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="542dp"
-        tools:layout_editor_absoluteY="777dp" />
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="515dp" />
 
 </android.support.constraint.ConstraintLayout>
